@@ -15,5 +15,7 @@ function handleClick() {
   }, 2000);
   setTimeout(() => {
     button.style.opacity = "0";
+    button.style.cursor = "default";
+    button.disabled = "true";
   }, 2000);
 }
