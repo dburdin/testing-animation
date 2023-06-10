@@ -119,11 +119,12 @@ body {
 }
 
 .use-tag-2-shadow--active {
-  animation: bounceOutDown;
+  animation: fadeOutDown;
   animation-duration: 2000ms;
-  animation-delay: 500ms;
 }
 .use-tag-2--active {
   animation: bounceOutDown;
-  animation-duration: 2000ms;
+  animation-duration: 1500ms;
 }
+
+/* Реалізувати падіння космонавта у тінь, а потім тінь схлопуєтсья */

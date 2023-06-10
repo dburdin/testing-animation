@@ -1,5 +1,4 @@
 const button = document.querySelector(".goodbye-btn");
-
 const animatedElement = document.querySelector(".use-tag-2");
 const animatedShadow = document.querySelector(".use-tag-2-shadow");
 const astroContainer = document.querySelector(".astro-container");
@@ -12,10 +11,10 @@ function handleClick() {
 
   setTimeout(() => {
     astroContainer.style.opacity = "0";
-  }, 2000);
+  }, 1000);
   setTimeout(() => {
     button.style.opacity = "0";
     button.style.cursor = "default";
     button.disabled = "true";
-  }, 2000);
+  }, 1000);
 }
